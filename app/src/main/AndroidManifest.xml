@@ -14,6 +14,7 @@
         android:theme="@style/Theme.MyApplication">
         <activity
             android:name=".SaveImage"
+            android:configChanges="orientation|screenSize|keyboardHidden"
             android:exported="true" />
         <activity
             android:name=".ViewContacts"
